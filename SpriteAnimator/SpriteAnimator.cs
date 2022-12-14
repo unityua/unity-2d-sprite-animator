@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using VoizehSpriteAnimator;
 
+[RequireComponent(typeof(SpriteRenderer))]
 public class SpriteAnimator : MonoBehaviour
 {
     public SpriteAnimation CurrentAnimation => currentAnimation;
